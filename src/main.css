@@ -1,0 +1,165 @@
+main {
+  position: absolute;
+  z-index: 2;
+  transition: all 1s ease-in-out;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather {
+  margin-top: 20px;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.weather-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 0
+}
+
+.weather-detail span {
+  margin: 0 10px;
+}
+
+.greetings {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 25vh;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.greeting {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.days {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.clock {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.center {
+  margin-top: 20px;
+  background-color: rgba(255,255,255,0.4);
+  color: black;
+  width: 90vw;
+  border-radius: 20px;
+  height: 60vh;
+
+  display: flex;
+}
+
+.center__left {
+  background-color: rgba(255,255,255,0.9);
+  border-radius: 20px;
+  margin: 40px 10px;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center__right {
+  margin: 50px 10px;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+} 
+
+.center__right iframe {
+  width: 80%;
+  height: 60%;
+}
+
+.todo__form,.todo__list {
+  margin: 15px;
+}
+
+.todo__form input {
+  width: 420px;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color: transparent;
+  font-size: 25px;
+}
+
+.todo__list {
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.todo__list li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  width: 40vw;
+  justify-content: space-between;
+}
+
+.todo__list li i {
+  font-size: 20px;
+}
+
+.quote {
+  width: 90%;
+  border-radius: 20px;
+}
+
+.quote-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.quote-detail span {
+  margin: 5px;
+  font-style:italic
+} 
+
+/* .quote {
+  margin-top: 20px;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.quote-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 20px;
+  padding: 10px 0;
+  margin-right: 20px;
+  color: white;
+  
+}
+.quote-detail span {
+  margin: 5px;
+  font-style:italic
+} */

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div id="bg-image" class="blur"></div>
+    <header>
+      <div class="login">
+        <h1 class="login__h1">What is your name?</h1>
+        <form class="login__form">
+          <input class="login__input" type="text" />
+          <input class="login__submit" type="submit" value="Log In" />
+        </form>
+      </div>
+    </header>
+    <main class="hidden">
+      <div class="weather">
+        <div class="weather-detail">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="greetings">
+        <h1 class="greeting"></h1>
+        <h1 class="days"></h1>
+        <h1 class="clock">00:00:00</h1>
+      </div>
+
+      <div class="center">
+        <div class="center__left">
+          <form class="todo__form">
+            <input
+              type="text"
+              placeholder="Write a To Do and Press Enter"
+              required
+            />
+          </form>
+          <ul class="todo__list"></ul>
+        </div>
+        <div class="center__right">
+          <iframe
+            class="youtube"
+            src="https://www.youtube.com/embed/fhkQcCmkt6s"
+            frameborder="0"
+          ></iframe>
+          <div class="quote">
+            <div class="quote-detail">
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="quote">
+        <div class="quote-detail">
+          <span></span>
+          <span></span>
+        </div>
+      </div> -->
+    </main>
+    <script src="src/login.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/greeting.js"></script>
+    <script src="src/quote.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/weather.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
